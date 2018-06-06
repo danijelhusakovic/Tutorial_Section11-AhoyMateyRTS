@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.Networking;
 
-public class Player : MonoBehaviour {
+public class Player : NetworkBehaviour {
 
 	private Vector3 inputValue;
 
@@ -14,6 +15,11 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if(!isLocalPlayer){
+			return;
+		}
+
 		inputValue.x = CrossPlatformInputManager.GetAxis ("Horizontal");
 		inputValue.y = 0f;
 		inputValue.z = CrossPlatformInputManager.GetAxis ("Vertical");
