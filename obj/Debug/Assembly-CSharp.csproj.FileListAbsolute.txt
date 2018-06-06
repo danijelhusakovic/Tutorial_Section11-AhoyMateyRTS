@@ -29,3 +29,4 @@ C:\Users\Will\Documents\repos\10. Ahoy Matey RTS\Temp\bin\Debug\UnityEngine.Holo
 C:\Users\Will\Documents\repos\10. Ahoy Matey RTS\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\Will\Documents\repos\10. Ahoy Matey RTS\obj\Debug\Assembly-CSharp.dll
 C:\Users\Will\Documents\repos\10. Ahoy Matey RTS\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Will\Documents\repos\10. Ahoy Matey RTS\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
