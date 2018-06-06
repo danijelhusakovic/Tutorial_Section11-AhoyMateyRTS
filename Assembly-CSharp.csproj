@@ -46,8 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Foam.cs" />
      <Compile Include="Assets\MyNetworkManager.cs" />
      <Compile Include="Assets\Players\Player.cs" />
+     <Compile Include="Assets\topSeaOffset.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
